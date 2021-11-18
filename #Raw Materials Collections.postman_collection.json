@@ -1,0 +1,430 @@
+{
+	"info": {
+		"_postman_id": "c85bae6e-1dd0-4e82-9ec8-92c1769def24",
+		"name": "#Raw Materials Collections",
+		"description": "This is material collection. Here user can create new material, modify the material, get all material and also can change the status.\n\nThis is all of my methods of the endpoint. \n1. GET get_all data return from the database.\n2. POST new data and save data from UI to database\n3. PUT is used for modifying user data from UI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "material/get_all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/material/get_all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"material",
+						"get_all"
+					]
+				},
+				"description": "This is Api endpoint for Get All the Material info in the system. This is GET method for using load data from database and show to UI"
+			},
+			"response": [
+				{
+					"name": "material/get_all",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/material/get_all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"material",
+								"get_all"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 20 Oct 2021 08:25:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1810"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": [\n        {\n            \"_id\": \"616ebea125b2ba25f5569be1\",\n            \"diameter\": 390,\n            \"diameteruomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"length\": 3330,\n            \"lengthuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"name\": \"minhaj\",\n            \"price\": 993,\n            \"status\": true,\n            \"thickness\": 3330,\n            \"thicknessuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"weight\": 3990,\n            \"weightuomid\": \"6166bd9a1c8efb62f4acb327\"\n        },\n        {\n            \"_id\": \"616ec6b125b2ba25f5569be2\",\n            \"diameter\": 3330,\n            \"diameteruomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"length\": 4440,\n            \"lengthuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"name\": \"adslksad3\",\n            \"price\": 9932,\n            \"status\": true,\n            \"thickness\": 4440,\n            \"thicknessuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"weight\": 3330,\n            \"weightuomid\": \"6166bd9a1c8efb62f4acb327\"\n        },\n        {\n            \"_id\": \"616eccec25b2ba25f5569be5\",\n            \"diameter\": 55,\n            \"length\": 0,\n            \"name\": \"name\",\n            \"price\": 88866,\n            \"status\": true,\n            \"thickness\": 0,\n            \"weight\": 0\n        },\n        {\n            \"_id\": \"616ecd3b25b2ba25f5569be6\",\n            \"diameter\": 3999,\n            \"length\": 0,\n            \"name\": \"sadik\",\n            \"price\": 3999,\n            \"status\": true,\n            \"thickness\": 0,\n            \"weight\": 0\n        },\n        {\n            \"_id\": \"616ecef725b2ba25f5569be7\",\n            \"diameter\": 3999,\n            \"diameteruomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"length\": 3999,\n            \"lengthuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"name\": \"aaaa\",\n            \"price\": 39999,\n            \"status\": true,\n            \"thickness\": 3999,\n            \"thicknessuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"weight\": 3999,\n            \"weightuomid\": \"6166bd9a1c8efb62f4acb327\"\n        },\n        {\n            \"_id\": \"616ed19425b2ba25f5569be8\",\n            \"diameter\": 99999,\n            \"diameteruomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"length\": 39999,\n            \"lengthuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"name\": \"mmm\",\n            \"price\": 99999,\n            \"status\": true,\n            \"thickness\": 39999,\n            \"thicknessuomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"weight\": 39999,\n            \"weightuomid\": \"6166bd9a1c8efb62f4acb327\"\n        },\n        {\n            \"_id\": \"616ee08a25b2ba25f5569beb\",\n            \"diameter\": 39399,\n            \"diameteruomid\": \"6166bd9a1c8efb62f4acb327\",\n            \"length\": 3999,\n            \"lengthuomid\": \"616ede5d25b2ba25f5569be9\",\n            \"name\": \"ssss\",\n            \"price\": 3999,\n            \"status\": true,\n            \"thickness\": 3999,\n            \"thicknessuomid\": \"616ee03225b2ba25f5569bea\",\n            \"weight\": 39999,\n            \"weightuomid\": \"616ee03225b2ba25f5569bea\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "material/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n            \"diameter\": 390,\n            \"length\": 3330,\n            \"name\": \"hanif\",\n            \"price\": 993,\n            \"status\": true,\n            \"thickness\": 3330,\n            \"weight\": 3990,\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/material/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"material",
+						"new"
+					]
+				},
+				"description": "This is Api endpoint for Create New Material in the system."
+			},
+			"response": [
+				{
+					"name": "material/new",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n            \"diameter\": 390,\n            \"length\": 3330,\n            \"name\": \"hanif\",\n            \"price\": 993,\n            \"status\": true,\n            \"thickness\": 3330,\n            \"weight\": 3990,\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/material/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"material",
+								"new"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 20 Oct 2021 08:28:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\"InsertedID\":\"616fd3451b56149fc127ec40\"}"
+				}
+			]
+		},
+		{
+			"name": "material/modify",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n        {\n            \"_id\": \"616fd3451b56149fc127ec40\",\n            \"diameter\": 390,\n            \"length\": 3330,\n            \"name\": \"minhajsadik\",\n            \"price\": 993,\n            \"status\": true,\n            \"thickness\": 3330,\n            \"weight\": 3990\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/material/modify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"material",
+						"modify"
+					]
+				},
+				"description": "This is Api endpoint for Modify Material in the system."
+			},
+			"response": [
+				{
+					"name": "material/modify",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\n        {\n            \"_id\": \"616fd3451b56149fc127ec40\",\n            \"diameter\": 390,\n            \"length\": 3330,\n            \"name\": \"minhajsadik\",\n            \"price\": 993,\n            \"status\": true,\n            \"thickness\": 3330,\n            \"weight\": 3990\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/material/modify",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"material",
+								"modify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 20 Oct 2021 08:41:40 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "set_status/:id/:new_status",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/material/set_status/616fd3451b56149fc127ec40/Active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"material",
+						"set_status",
+						"616fd3451b56149fc127ec40",
+						"Active"
+					]
+				},
+				"description": "This is Api endpoint for set the status in the system."
+			},
+			"response": [
+				{
+					"name": "set_status/:id/:new_status",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/material/set_status/616fd3451b56149fc127ec40/Active",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"material",
+								"set_status",
+								"616fd3451b56149fc127ec40",
+								"Active"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 20 Oct 2021 08:49:24 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "Status Modified Successfully"
+				}
+			]
+		},
+		{
+			"name": "material/get_all/populated",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/material/get_all/populated",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"material",
+						"get_all",
+						"populated"
+					]
+				},
+				"description": "This is Api endpoint for Get All Populated the Material info in the system, here you can add diameter, length, weight, thickness, and set what is the type of diameter or length, e.g: diameter(mm) or (cm) added with a side of diameter type."
+			},
+			"response": [
+				{
+					"name": "material/get_all/populated",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/material/get_all/populated",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"material",
+								"get_all",
+								"populated"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 20 Oct 2021 08:51:24 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4010"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": [\n        {\n            \"_id\": \"616ebea125b2ba25f5569be1\",\n            \"name\": \"minhaj\",\n            \"price\": 993,\n            \"status\": true,\n            \"diameter\": 390,\n            \"diameteruomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"weight\": 3990,\n            \"weightuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"length\": 3330,\n            \"lengthuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"thickness\": 3330,\n            \"thicknessuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            }\n        },\n        {\n            \"_id\": \"616ec6b125b2ba25f5569be2\",\n            \"name\": \"adslksad3\",\n            \"price\": 9932,\n            \"status\": true,\n            \"diameter\": 3330,\n            \"diameteruomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"weight\": 3330,\n            \"weightuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"length\": 4440,\n            \"lengthuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"thickness\": 4440,\n            \"thicknessuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            }\n        },\n        {\n            \"_id\": \"616eccec25b2ba25f5569be5\",\n            \"name\": \"name\",\n            \"price\": 88866,\n            \"status\": true,\n            \"diameter\": 55,\n            \"diameteruomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"weightuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"lengthuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"thicknessuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            }\n        },\n        {\n            \"_id\": \"616ecd3b25b2ba25f5569be6\",\n            \"name\": \"sadik\",\n            \"price\": 3999,\n            \"status\": true,\n            \"diameter\": 3999,\n            \"diameteruomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"weightuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"lengthuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"thicknessuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            }\n        },\n        {\n            \"_id\": \"616ecef725b2ba25f5569be7\",\n            \"name\": \"aaaa\",\n            \"price\": 39999,\n            \"status\": true,\n            \"diameter\": 3999,\n            \"diameteruomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"weight\": 3999,\n            \"weightuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"length\": 3999,\n            \"lengthuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"thickness\": 3999,\n            \"thicknessuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            }\n        },\n        {\n            \"_id\": \"616ed19425b2ba25f5569be8\",\n            \"name\": \"mmm\",\n            \"price\": 99999,\n            \"status\": true,\n            \"diameter\": 99999,\n            \"diameteruomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"weight\": 39999,\n            \"weightuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"length\": 39999,\n            \"lengthuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"thickness\": 39999,\n            \"thicknessuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            }\n        },\n        {\n            \"_id\": \"616ee08a25b2ba25f5569beb\",\n            \"name\": \"ssss\",\n            \"price\": 3999,\n            \"status\": true,\n            \"diameter\": 39399,\n            \"diameteruomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"weight\": 39999,\n            \"weightuomid\": {\n                \"_id\": \"616ee03225b2ba25f5569bea\",\n                \"name\": \"mm\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"length\": 3999,\n            \"lengthuomid\": {\n                \"_id\": \"616ede5d25b2ba25f5569be9\",\n                \"name\": \"cm\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"thickness\": 3999,\n            \"thicknessuomid\": {\n                \"_id\": \"616ee03225b2ba25f5569bea\",\n                \"name\": \"mm\",\n                \"status\": true,\n                \"category\": \"new\"\n            }\n        },\n        {\n            \"_id\": \"616fd2f61b56149fc127ec3f\",\n            \"name\": \"sam\",\n            \"price\": 993,\n            \"status\": true,\n            \"diameter\": 390,\n            \"diameteruomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"weight\": 3990,\n            \"weightuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"length\": 3330,\n            \"lengthuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            },\n            \"thickness\": 3330,\n            \"thicknessuomid\": {\n                \"_id\": \"6166bd9a1c8efb62f4acb327\",\n                \"name\": \"ml\",\n                \"status\": true,\n                \"category\": \"new\"\n            }\n        },\n        {\n            \"_id\": \"616fd3451b56149fc127ec40\",\n            \"name\": \"minhajsadik\",\n            \"price\": 993,\n            \"status\": true,\n            \"diameter\": 390,\n            \"diameteruomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"weight\": 3990,\n            \"weightuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"length\": 3330,\n            \"lengthuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            },\n            \"thickness\": 3330,\n            \"thicknessuomid\": {\n                \"_id\": \"000000000000000000000000\"\n            }\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
